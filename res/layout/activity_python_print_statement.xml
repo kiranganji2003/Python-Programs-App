@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PythonPrintStatement"
+    android:background="@color/layout_background_color">
+
+    <ScrollView
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cambay"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/example_1"
+                android:textColor="@color/code_color"
+                android:textIsSelectable="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                app:cardCornerRadius="1dp"
+                app:cardElevation="0dp">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/card_backgroud2"
+                    android:scrollbarThumbHorizontal="@color/card_backgroud2">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/example1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_mono"
+                            android:lineSpacingMultiplier="1.5"
+                            android:paddingStart="11dp"
+                            android:paddingLeft="11dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="11dp"
+                            android:paddingBottom="20dp"
+                            android:text=""
+                            android:textColor="@color/code_color"
+                            android:textIsSelectable="true"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/cambay"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/output"
+                android:textColor="@color/code_color"
+                android:textIsSelectable="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:scrollbarThumbHorizontal="@color/layout_background_color">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/output1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_mono"
+                        android:lineSpacingMultiplier="1.5"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:text=""
+                        android:textColor="@color/output_color"
+                        android:textIsSelectable="true"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/cambay"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/example_2"
+                android:textColor="@color/code_color"
+                android:textIsSelectable="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                app:cardCornerRadius="1dp"
+                app:cardElevation="0dp">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/card_backgroud2"
+                    android:scrollbarThumbHorizontal="@color/card_backgroud2">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/example2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_mono"
+                            android:lineSpacingMultiplier="1.5"
+                            android:paddingStart="11dp"
+                            android:paddingLeft="11dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="11dp"
+                            android:paddingBottom="20dp"
+                            android:text=""
+                            android:textColor="@color/code_color"
+                            android:textIsSelectable="true"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/cambay"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/output"
+                android:textColor="@color/code_color"
+                android:textIsSelectable="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:scrollbarThumbHorizontal="@color/layout_background_color">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/output2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_mono"
+                        android:lineSpacingMultiplier="1.5"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:text=""
+                        android:textColor="@color/output_color"
+                        android:textIsSelectable="true"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/cambay"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/example_3"
+                android:textColor="@color/code_color"
+                android:textIsSelectable="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                app:cardCornerRadius="1dp"
+                app:cardElevation="0dp">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/card_backgroud2"
+                    android:scrollbarThumbHorizontal="@color/card_backgroud2">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/example3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto_mono"
+                            android:lineSpacingMultiplier="1.5"
+                            android:paddingStart="11dp"
+                            android:paddingLeft="11dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="11dp"
+                            android:paddingBottom="20dp"
+                            android:text=""
+                            android:textColor="@color/code_color"
+                            android:textIsSelectable="true"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/cambay"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/output"
+                android:textColor="@color/code_color"
+                android:textIsSelectable="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:scrollbarThumbHorizontal="@color/layout_background_color">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/output3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_mono"
+                        android:lineSpacingMultiplier="1.5"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:text=""
+                        android:textColor="@color/output_color"
+                        android:textIsSelectable="true"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/cambay"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/example_4"
+                android:textColor="@color/code_color"
+                android:textIsSelectable="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                app:cardCornerRadius="1dp"
+                app:cardElevation="0dp">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/card_backgroud2"
+                    android:scrollbarThumbHorizontal="@color/card_backgroud2">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/example4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto_mono"
+                            android:lineSpacingMultiplier="1.5"
+                            android:paddingStart="11dp"
+                            android:paddingLeft="11dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="11dp"
+                            android:paddingBottom="20dp"
+                            android:text=""
+                            android:textColor="@color/code_color"
+                            android:textIsSelectable="true"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/cambay"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/output"
+                android:textColor="@color/code_color"
+                android:textIsSelectable="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:scrollbarThumbHorizontal="@color/layout_background_color">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/output4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_mono"
+                        android:lineSpacingMultiplier="1.5"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:text=""
+                        android:textColor="@color/output_color"
+                        android:textIsSelectable="true"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/cambay"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/example_5"
+                android:textColor="@color/code_color"
+                android:textIsSelectable="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                app:cardCornerRadius="1dp"
+                app:cardElevation="0dp">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/card_backgroud2"
+                    android:scrollbarThumbHorizontal="@color/card_backgroud2">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/example5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto_mono"
+                            android:lineSpacingMultiplier="1.5"
+                            android:paddingStart="11dp"
+                            android:paddingLeft="11dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="11dp"
+                            android:paddingBottom="20dp"
+                            android:text=""
+                            android:textColor="@color/code_color"
+                            android:textIsSelectable="true"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/cambay"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/output"
+                android:textColor="@color/code_color"
+                android:textIsSelectable="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:scrollbarThumbHorizontal="@color/layout_background_color">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/output5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_mono"
+                        android:lineSpacingMultiplier="1.5"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:text=""
+                        android:textColor="@color/output_color"
+                        android:textIsSelectable="true"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/cambay"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/example_6"
+                android:textColor="@color/code_color"
+                android:textIsSelectable="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                app:cardCornerRadius="1dp"
+                app:cardElevation="0dp">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/card_backgroud2"
+                    android:scrollbarThumbHorizontal="@color/card_backgroud2">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/example6"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto_mono"
+                            android:lineSpacingMultiplier="1.5"
+                            android:paddingStart="11dp"
+                            android:paddingLeft="11dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="11dp"
+                            android:paddingBottom="20dp"
+                            android:text=""
+                            android:textColor="@color/code_color"
+                            android:textIsSelectable="true"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/cambay"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/output"
+                android:textColor="@color/code_color"
+                android:textIsSelectable="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:scrollbarThumbHorizontal="@color/layout_background_color">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/output6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_mono"
+                        android:lineSpacingMultiplier="1.5"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:text=""
+                        android:textColor="@color/output_color"
+                        android:textIsSelectable="true"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/cambay"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/example_7"
+                android:textColor="@color/code_color"
+                android:textIsSelectable="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                app:cardCornerRadius="1dp"
+                app:cardElevation="0dp">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/card_backgroud2"
+                    android:scrollbarThumbHorizontal="@color/card_backgroud2">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/example7"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto_mono"
+                            android:lineSpacingMultiplier="1.5"
+                            android:paddingStart="11dp"
+                            android:paddingLeft="11dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="11dp"
+                            android:paddingBottom="20dp"
+                            android:text=""
+                            android:textColor="@color/code_color"
+                            android:textIsSelectable="true"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/cambay"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/output"
+                android:textColor="@color/code_color"
+                android:textIsSelectable="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:scrollbarThumbHorizontal="@color/layout_background_color">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/output7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_mono"
+                        android:lineSpacingMultiplier="1.5"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:text=""
+                        android:textColor="@color/output_color"
+                        android:textIsSelectable="true"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/cambay"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/example_8"
+                android:textColor="@color/code_color"
+                android:textIsSelectable="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                app:cardCornerRadius="1dp"
+                app:cardElevation="0dp">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/card_backgroud2"
+                    android:scrollbarThumbHorizontal="@color/card_backgroud2">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/example8"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto_mono"
+                            android:lineSpacingMultiplier="1.5"
+                            android:paddingStart="11dp"
+                            android:paddingLeft="11dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="11dp"
+                            android:paddingBottom="20dp"
+                            android:text=""
+                            android:textColor="@color/code_color"
+                            android:textIsSelectable="true"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/cambay"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/output"
+                android:textColor="@color/code_color"
+                android:textIsSelectable="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:scrollbarThumbHorizontal="@color/layout_background_color">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/output8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_mono"
+                        android:lineSpacingMultiplier="1.5"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:text=""
+                        android:textColor="@color/output_color"
+                        android:textIsSelectable="true"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/cambay"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/example_9"
+                android:textColor="@color/code_color"
+                android:textIsSelectable="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                app:cardCornerRadius="1dp"
+                app:cardElevation="0dp">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/card_backgroud2"
+                    android:scrollbarThumbHorizontal="@color/card_backgroud2">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/example9"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto_mono"
+                            android:lineSpacingMultiplier="1.5"
+                            android:paddingStart="11dp"
+                            android:paddingLeft="11dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="11dp"
+                            android:paddingBottom="20dp"
+                            android:text=""
+                            android:textColor="@color/code_color"
+                            android:textIsSelectable="true"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/cambay"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/output"
+                android:textColor="@color/code_color"
+                android:textIsSelectable="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:scrollbarThumbHorizontal="@color/layout_background_color">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/output9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_mono"
+                        android:lineSpacingMultiplier="1.5"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:text=""
+                        android:textColor="@color/output_color"
+                        android:textIsSelectable="true"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/cambay"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/example_10"
+                android:textColor="@color/code_color"
+                android:textIsSelectable="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                app:cardCornerRadius="1dp"
+                app:cardElevation="0dp">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/card_backgroud2"
+                    android:scrollbarThumbHorizontal="@color/card_backgroud2">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/example10"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto_mono"
+                            android:lineSpacingMultiplier="1.5"
+                            android:paddingStart="11dp"
+                            android:paddingLeft="11dp"
+                            android:paddingTop="20dp"
+                            android:paddingRight="11dp"
+                            android:paddingBottom="20dp"
+                            android:text=""
+                            android:textColor="@color/code_color"
+                            android:textIsSelectable="true"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/cambay"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/output"
+                android:textColor="@color/code_color"
+                android:textIsSelectable="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:scrollbarThumbHorizontal="@color/layout_background_color">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/output10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_mono"
+                        android:lineSpacingMultiplier="1.5"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:text=""
+                        android:textColor="@color/output_color"
+                        android:textIsSelectable="true"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/previous"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/fredoka_one"
+                    android:gravity="start"
+                    android:padding="10dp"
+                    android:text="@string/previous"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/purple_500"
+                    android:textSize="23sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/fredoka_one"
+                    android:gravity="end"
+                    android:padding="10dp"
+                    android:text="@string/next"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/purple_500"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Python Programs</string>
+    <string name="basics">Basics</string>
+    <string name="functions">Functions</string>
+    <string name="classes_and_objects">Classes and Objects</string>
+    <string name="oops_concepts">OOP Concepts</string>
+    <string name="modules">Modules</string>
+    <string name="exception_handling">Exception Handling</string>
+    <string name="file_handling">File Handling</string>
+    <string name="programs">Programs</string>
+    <string name="patterns">Patterns</string>
+    <string name="projects">Projects</string>
+    <string name="data_structure">Data Structure</string>
+    <string name="quiz">Quiz</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="share_app">Share App</string>
+    <string name="example_1">Example 1</string>
+    <string name="example_2">Example 2</string>
+    <string name="example_3">Example 3</string>
+    <string name="example_4">Example 4</string>
+    <string name="example_5">Example 5</string>
+    <string name="example_6">Example 6</string>
+    <string name="example_7">Example 7</string>
+    <string name="example_8">Example 8</string>
+    <string name="example_9">Example 9</string>
+    <string name="example_10">Example 10</string>
+    <string name="example_11">Example 11</string>
+    <string name="example_12">Example 12</string>
+    <string name="example_13">Example 13</string>
+    <string name="example_14">Example 14</string>
+    <string name="example_15">Example 15</string>
+    <string name="output">Output</string>
+    <string name="previous">&lt;</string>
+    <string name="next">&gt;</string>
+    <string name="nextBtn">Next</string>
+    <string name="main_py">Main.py</string>
+    <string name="add_birthday_py">Add_Birthday.py</string>
+    <string name="see_all_birthdays_py">See_All_Birthdays.py</string>
+    <string name="search_birthday_py">Search_Birthday.py</string>
+    <string name="add_customer_record_py">add_customer_record.py</string>
+    <string name="display_customer_record_py">display_customer_record.py</string>
+    <string name="search_customer_record_py">search_customer_record.py</string>
+    <string name="display_profit_loss_py">display_profit_loss.py</string>
+    <string name="display_customer_records_of_product_py">display_customer_records_of_product.py</string>
+    <string name="add_book_in_library_py">AddBookInLibrary.py</string>
+    <string name="delete_the_book_from_library_py">DeleteTheBookFromLibrary.py</string>
+    <string name="list_all_available_books_py">ListAllAvailableBooks.py</string>
+    <string name="issue_book_to_student_py">IssueBookToStudent.py</string>
+    <string name="take_back_the_book_py">TakeBackTheBook.py</string>
+    <string name="display_students_who_have_taken_the_books_py">DisplayStudentsWhoHaveTakenTheBooks.py</string>
+    <string name="quiz1_py">Quiz1.py</string>
+    <string name="quiz2_py">Quiz2.py</string>
+    <string name="quiz3_py">Quiz3.py</string>
+    <string name="quiz4_py">Quiz4.py</string>
+    <string name="quiz5_py">Quiz5.py</string>
+    <string name="choice_py">Choice.py</string>
+    <string name="conversions_py">Conversions.py</string>
+    <string name="employee_py">Employee.py</string>
+    <string name="record_py">Record.py</string>
+    <string name="module1_py">Module1.py</string>
+    <string name="module2_py">Module2.py</string>
+    <string name="executable_file_py">ExecutableFile.py</string>
+    <string name="arithmetic_functions_py">ArithmeticFunctions.py</string>
+    <string name="programs_py">Programs.py</string>
+    <string name="length_py">Length.py</string>
+    <string name="password_py">Password.py</string>
+    <string name="splash_screen">Splash Screen</string>
+    <string name="search">Search</string>
+    <string name="share">Share</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="make_sure_that_wi_fi_or_mobile_data_is_turned_on_then_try_again">Make sure that Wi-Fi or mobile data is turned on, then try again.</string>
+    <string name="retry">Retry</string>
+
+
+<!--     Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713-->
+    <string name="AdMob_app_ID">ca-app-pub-3940256099942544~3347511713</string>
+
+<!--    Original : ca-app-pub-2527083125728801~5716869101-->
+
+</resources>
